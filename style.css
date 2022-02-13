@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+.hero-img-wrapper {
+    width: 100%;
+    height: max-content;
+}
+
+.hero-img {
+    height: 25rem;
+}
+
+.category-wrapper {
+    justify-items: center;
+    gap: 1rem;
+}
+
+.category-card {
+    width: 10rem;
+    height: 10rem;
+}
+
+.category-card:hover {
+    cursor: pointer;
+}
+
+.category-img {
+    height: 100%;
+}
