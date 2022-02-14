@@ -3,11 +3,13 @@
     padding: 0;
 }
 
-.ques-header {
+.quiz-wrapper {
     background: var(--c-lightblue);
+    height: 80vh;
 }
 
 .ques-wrapper {
+    background: var(--c-white);
     width: 35rem;
 }
 
