@@ -3,16 +3,22 @@
     padding: 0;
 }
 
-.ques-header {
+.quiz-wrapper {
     background: var(--c-lightblue);
 }
 
 .ques-wrapper {
     width: 35rem;
+    background: var(--c-white);
+}
+
+.material-icons {
+    font-size: 140%;
 }
 
 @media only screen and (max-width: 400px) {
     .ques-wrapper {
         width: 25rem;
     }
+
 } 
