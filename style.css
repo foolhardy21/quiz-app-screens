@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-.hero-img-wrapper {
-    width: 100%;
-    height: max-content;
+.hero-container {
+    background: var(--c-lightblue);
+    height: 20rem;
 }
 
 .hero-img {
-    height: 25rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 .category-wrapper {
