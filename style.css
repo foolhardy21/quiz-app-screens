@@ -3,12 +3,18 @@
     padding: 0;
 }
 
-.ques-header {
+.quiz-wrapper {
     background: var(--c-lightblue);
+    height: 80vh;
 }
 
 .rules-wrapper {
     width: 35rem;
+    background: var(--c-white);
+}
+
+.btn-filled:hover {
+    background: var(--c-green);    
 }
 
 @media only screen and (max-width: 400px) {
