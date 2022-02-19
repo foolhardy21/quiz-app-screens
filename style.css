@@ -12,13 +12,13 @@
     background: var(--c-white);
 }
 
-.material-icons {
-    font-size: 140%;
-}
-
 @media only screen and (max-width: 400px) {
     .ques-wrapper {
         width: 25rem;
+    }
+
+    .material-icons {
+        font-size: 1rem;
     }
 
 } 
