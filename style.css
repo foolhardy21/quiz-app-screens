@@ -1,6 +1,15 @@
-* {
+*{
     margin: 0;
     padding: 0;
+}
+
+.quiz-wrapper {
+    background: var(--c-lightblue);
+}
+
+.ques-wrapper {
+    width: 35rem;
+    background: var(--c-white);
 }
 
 .hero-container {
@@ -30,3 +39,15 @@
 .category-img {
     height: 100%;
 }
+
+@media only screen and (max-width: 400px) {
+    .ques-wrapper {
+        width: 25rem;
+    }
+
+    .material-icons {
+        font-size: 1rem;
+    }
+
+} 
+
