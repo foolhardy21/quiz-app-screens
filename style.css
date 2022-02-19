@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background: var(--c-lightblue);
+    height: 20rem;
+}
+
+.hero-img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.category-wrapper {
+    justify-items: center;
+    gap: 1rem;
+}
+
+.category-card {
+    width: 10rem;
+    height: 10rem;
+}
+
+.category-card:hover {
+    cursor: pointer;
+}
+
+.category-img {
+    height: 100%;
+}
