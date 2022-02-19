@@ -10,12 +10,15 @@
 
 .result-wrapper {
     background: var(--c-lightblue);
-    /* height: 80vh; */
 }
 
-.ques-wrapper {
+.rules-wrapper, .ques-wrapper {
     width: 35rem;
     background: var(--c-white);
+}
+
+.btn-filled:hover {
+    background: var(--c-green);    
 }
 
 .hero-container {
@@ -53,6 +56,10 @@
 
     .material-icons {
         font-size: 1rem;
+    }
+    
+    .rules-wrapper {
+        width: 25rem;
     }
 
 } 
