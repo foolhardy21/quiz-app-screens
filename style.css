@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .quiz-wrapper {
     background: var(--c-lightblue);
+    height: 80vh;
 }
 
 .ques-wrapper {
