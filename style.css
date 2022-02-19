@@ -8,6 +8,11 @@
     height: 80vh;
 }
 
+.result-wrapper {
+    background: var(--c-lightblue);
+    /* height: 80vh; */
+}
+
 .ques-wrapper {
     width: 35rem;
     background: var(--c-white);
