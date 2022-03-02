@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons' />
-    <link rel="stylesheet" href="https://festive-mestorf-acecb0.netlify.app/style.css" />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="https://deploy-preview-11--festive-mestorf-acecb0.netlify.app/stylesheet/style.css" />
+    <link rel="stylesheet" href="../stylesheet/home.css" />
+    <link rel="stylesheet" href="../stylesheet/style.css" />
     <title>Home Page</title>
 </head>
-<body>
 
-    <header class="page-header flex-horizontal-start padding-xxlg">
-        <p class=" c-blue text-bold font-size-xlg text-uppercase letter-space-md">
+<body class="bg-primary">
+
+    <header id="pg-header" class="flx flx-maj-start pd-md mg-btm-md">
+        <p class="txt-primary txt-lg txt-ucase">
             sneakerhead
         </p>
     </header>
-    <div class="hero-container flex-horizontal-start flex-vertical-center padding-xxlg margin-btm-lg">
-        <img src='../assets/hero.jfif' class="hero-img border-radius-circle" />
-        <p class="c-black font-size-xlg text-bold margin-left-md">are you a sneakerhead ?</p>
+
+    <span id="btn-theme" class="material-icons pos-absolute tr-1 icon-primary pd-s">
+        bedtime
+    </span>
+
+    <div class="flx flx-center mg-top-xxlg mg-btm-xxlg">
+        <img srcset='../assets/hero-m.jpg 250w,
+        ../assets/hero-s.jpg 150w' sizes="(max-width: 768px) 150px, 250px" alt="air jordan 1 blue" class="brd-full" />
+        <p class="txt-secondary bg-secondary txt-lg mg-left-s">are you a sneakerhead ?</p>
     </div>
 
-    <p class="c-darkgray font-size-lg text-capital flex-center margin-btm-lg">choose any one</p>
-    
-    <section class="grid grid-maxcols-4 category-wrapper margin-btm-md">
-        <article class="pos-relative category-card" >
-            <img src='../assets/adi.jpg' alt="adidas logo" class="card-image category-img" />
-            <p class="pos-absolute top-right-1 c-black">adidas</p>
+    <p class="txt-primary txt-lg txt-cap flx flx-center mg-btm-md">choose any one</p>
+
+    <section class="grid grid-maxcols-4 mg-btm-md">
+        <article class="card-dim pos-relative">
+            <img srcset='../assets/adi-m.jpg 250w,
+            ../assets/adi-s.jpg 150w' sizes="(max-width: 768px) 150px, 250px" alt="adidas logo" />
+            <p class="pos-absolute tr-1 txt-primary bg-primary">adidas</p>
         </article>
-        <article class="pos-relative category-card">
-            <p class="pos-absolute top-right-1 c-black">nike</p>
-            <img src='../assets/nike.jpg' alt="nike logo" class="card-image category-img" />
+        <article class="card-dim pos-relative">
+            <p class="pos-absolute tr-1 txt-primary bg-primary">new balance</p>
+            <img srcset='../assets/nb-m.jpg 250w,
+            ../assets/nb-s.jpg 150w' sizes="(max-width: 768px) 150px, 250px" alt="new balance shoe" />
         </article>
-        <article class="pos-relative category-card" >
-            <p class="pos-absolute top-right-1 c-white">air jordan</p>
-            <img src='../assets/air-j.jpg' alt="air jordan logo" class="card-image category-img" />
+        <article class="card-dim pos-relative">
+            <p class="pos-absolute tr-1 txt-primary bg-primary">air jordan</p>
+            <img srcset='../assets/airj-m.jpg 250w,
+            ../assets/airj-s.jpg 150w' sizes="(max-width: 768px) 150px, 250px" alt="air jordan logo" />
         </article>
-        <article class="pos-relative category-card" >
-            <p class="pos-absolute top-right-1 c-white">puma</p>
-            <img src='../assets/puma.jpg' alt="puma logo" class="card-image category-img" />
+        <article class="card-dim pos-relative">
+            <p class="pos-absolute tr-1 txt-primary bg-primary">puma</p>
+            <img srcset='../assets/puma-m.jpg 250w,
+            ../assets/puma-s.jpg 150w' sizes="(max-width: 768px) 150px, 250px" alt="puma logo" />
         </article>
     </section>
 
 </body>
+<script src="../script.js"></script>
+
 </html>
